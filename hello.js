@@ -1,4 +1,5 @@
-const greet = (name) => `Hello, ${name}!`;
+const greet = (name, age) => `Hello, ${name}! You are ${age} years old`;
 
 const people = ["Alice", "Bob"];
-people.forEach((person) => console.log(greet(person)));
+const age = "21";
+people.forEach((person) => console.log(greet(person, age)));
